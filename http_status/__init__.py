@@ -1,8 +1,11 @@
 """
 Defines classes for the "important" HTTP Response codes.
 The status codes chosen were based off of "RESTful Web Services" by Richardson and Ruby
+Codes not implemented:
+    100: continue
+    101: switching protocols
+    401: payment required
 """
-
 
 # 2XX Codes: Success
 from django.http import HttpResponse # 200
@@ -77,4 +80,3 @@ class HttpResponseGatewayTimeout(HttpResponse):
     status_code = 504
 class HttpResponseHttpVersionNotSupported(HttpResponse):
     status_code = 505
-
