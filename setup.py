@@ -10,7 +10,7 @@ setup(
     author_email    ="berislav@lopac.net",
     url             ="https://bitbucket.org/BerislavLopac/django-http-status",
     license         ="BSD",
-    packages        =["http-status"],
+    packages        =["http_status"],
     zip_safe        =False,
     install_requires=[],
     include_package_data=True,
