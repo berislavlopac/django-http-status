@@ -1,11 +1,16 @@
 HTTPResponseCodes
 =================
 
+A library of useful HTTP response codes for Django.
+
+Django includes a number of HttpResponse subclasses representing various HTTP response codes. This library completes that list adding the missing codes as defined in HTTP1.1.
+
+
 2xx Codes: Success
 ------------------
 
     Class                                       Response Code
-    ---------------------------------------------------------
+    -----                                       -------------
     HttpResponse                                    200
     HttpResponseCreated                             201
     HttpResponseAccepted                            202
@@ -20,7 +25,7 @@ HTTPResponseCodes
 ----------------------
 
     Class                                       Response Code
-    ---------------------------------------------------------
+    -----                                       -------------
     HttpResponseMultipleChoices                     300
     HttpResponsePermanentRedirect                   301
     HttpResponseRedirect                            302
@@ -34,7 +39,7 @@ HTTPResponseCodes
 ----------------------------
 
     Class                                       Response Code
-    ---------------------------------------------------------
+    -----                                       -------------
     HttpResponseBadRequest                          400
     HttpResponseUnauthorized                        401
     HttpResponseForbidden                           403
@@ -58,7 +63,7 @@ HTTPResponseCodes
 ----------------------------
 
     Class                                       Response Code
-    ---------------------------------------------------------
+    -----                                       -------------
     HttpResponseServerError                         500
     HttpResponseNotImplemented                      501
     HttpResponseBadGateway                          502
