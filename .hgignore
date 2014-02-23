@@ -1,2 +1,4 @@
 syntax: glob
 *.komodoproject
+re:^dist/
+re:^django_http_status\.egg-info/
