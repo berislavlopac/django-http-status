@@ -15,7 +15,7 @@ The library provides a number of offical codes, except for the 1xx ones
 (continue) and 402 Payment Required, which is not oficially recognized. To use
 the library just import is as::
 
-    from django-http-status import HttpResponse, HttpResponsePartialContent
+    from http_status import HttpResponse, HttpResponsePartialContent
 
 
 2xx: Success
